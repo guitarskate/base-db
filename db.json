@@ -3,17 +3,20 @@
     {
       "id": 1,
       "title": "Post 1",
-      "userId": 1
+      "userId": 1,
+      "statusId": 1
     },
     {
       "id": 2,
       "title": "Post 2",
-      "userId": 2
+      "userId": 2,
+      "statusId": 1
     },
     {
       "id": 3,
       "title": "Post 3",
-      "userId": 1
+      "userId": 1,
+      "statusId": 1
     }
   ],
   "comments": [
@@ -38,6 +41,16 @@
       "id": 2,
       "name": "Andres Montes",
       "nickname": "andum"
+    }
+  ],
+  "status": [
+    {
+      "id": 1,
+      "status": "Visto"
+    },
+    {
+      "id": 2,
+      "status": "Sin leer"
     }
   ]
 }
